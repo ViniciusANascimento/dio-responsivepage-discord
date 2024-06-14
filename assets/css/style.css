@@ -1,1 +1,94 @@
 @import url(/assets/css/reset.css);
+body{
+	font-family: "Open Sans",sans-serif;
+}
+h1{
+	font-size: 2rem;
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 1.5rem;
+	font-weight: 800;
+	color: #23272A;
+}
+
+#header-info{
+	background-image: url(../image/Header\ Background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+}
+#header-info h1{
+	width: 50%;
+}
+.container, .info{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 5%;
+	justify-content: space-around;
+	gap: 10px;
+	height: 505px;
+	
+}
+.container a, .info a{
+	text-decoration: none;
+	color: #000;
+	border-radius: 15px;
+	text-align: center;
+	padding: 10px;
+}
+
+.container a:nth-of-type(odd){
+	background-color: #fff;
+}
+.container a:nth-of-type(even){
+	background-color: #000;
+	color: #fff;
+}
+.container img{
+	max-width: 100%;
+}
+.container:nth-of-type(odd){
+	background-color: #fff;
+}
+.container:nth-of-type(even){
+	background-color: #F6F6F6;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+#footer-info{
+	background-color: #23272A;
+	height: auto;
+}
+
+@media all and (min-width: 431px){
+	.container{
+		flex-direction: row;
+		height: auto;
+	}
+	#header-info{
+		height: 480px;
+		background-size: auto ;
+	}
+	#header-info, .info-tech{
+		flex-direction: column;
+		align-items: center;
+	}
+	#header-info .details{
+		flex-direction: row;
+	}
+	.info, .info-tech{
+		width: 70%;
+	}
+
+	
+}
