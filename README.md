@@ -2,7 +2,6 @@
 
 Bem vindo(a) a primeira pagina responsiva construida a partir da tecnica "Mobile First" para que os componentes se adequem conforme a tela for se esticando.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
 
 ![image](/mobile-discord.png)
 ![image](/widescreen-discord.png)
